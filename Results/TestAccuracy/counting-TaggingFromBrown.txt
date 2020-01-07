@@ -1,0 +1,66 @@
+adj.
+145
+s.
+420
+SENT
+329
+v.
+135
+pron.
+163
+prep. | conj.
+227
+part.
+46
+pron.poss.
+60
+adv.
+127
+art.
+208
+tp
+25
+conj.
+131
+part.pass.
+56
+prep.
+36
+pron. pers.
+4
+prep. s.
+1
+CD
+24
+NP
+62
+pron.pers. v.
+3
+pret.
+87
+prep art.
+1
+part. | pret.
+3
+particle.
+14
+pron. v.
+4
+pron. pret.
+4
+interj.
+3
+v. pron.
+1
+pret. part.pass.
+6
+sp.
+2
+pron.pers.
+1
+pron. tp
+1
+pron. sp.
+2
+adv. tp
+1

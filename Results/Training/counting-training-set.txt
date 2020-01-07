@@ -1,0 +1,78 @@
+NP
+1514
+SENT
+4348
+s.
+4772
+prep.  |  conj.
+2572
+part.pass.
+952
+pret.
+1515
+adj.
+1821
+art.
+2410
+adv.
+1562
+pron.
+1885
+pret. part.pass.
+179
+particle.
+195
+pron.poss.
+514
+CD
+261
+conj.
+1438
+part.
+455
+v.
+1253
+prep.
+407
+tp
+342
+part.  |  pret.
+60
+pron. v.
+45
+prep. | conj. | s.
+22
+pron. pret.
+15
+adv. tp
+7
+art. tp.
+5
+interj.
+39
+pron. sp
+15
+pron.pers. v.
+13
+sp
+5
+pron. tp
+2
+pron. pers.
+6
+art. pret.
+1
+v. pron.
+2
+NP tp
+1
+prep. art.
+1
+pron. pert.
+1
+s. tp
+2
+pret. prep.
+1
+adj. pret.
+1

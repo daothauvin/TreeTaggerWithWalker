@@ -1,0 +1,16 @@
+adj.
+273
+s.
+1709
+SENT
+303
+pron.pers.
+24
+CD
+15
+NP
+6
+art.
+1
+interj.
+1
