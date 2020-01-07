@@ -5,15 +5,15 @@ Created on Fri Oct 18 15:23:39 2019
 
 @author: Dao
 @arg1 nom : file to look
-@arg2 vers : file to write
-Count tags occurence
+Count tags occurences
+nom form :
+word\ttag
 """
 
 
 import sys
 
 nom = sys.argv[1]
-vers = sys.argv[2]
 
 tab = []
 

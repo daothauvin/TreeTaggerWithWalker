@@ -8,6 +8,9 @@ Created on Fri Oct 18 15:23:39 2019
 @arg2 fich2 : file to look
 Give differences between tags from fich1 and fich2, 
 first print gives the count tags from fich1 that do not correspond to fich2 and secondly do the opposite
+fich1 and fich2 form :
+word\ttag
+...
 """
 
 

@@ -3,7 +3,8 @@
 @arg2 foo : output file name
 This program opens file bar and merge ligns with same word at the beginning and writes the
 contents to foo file.
-Used on 
+nom and vers form :
+word\ttag
 """
 
 import sys

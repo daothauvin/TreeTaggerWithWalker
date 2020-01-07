@@ -6,6 +6,10 @@ Created on Fri Oct 18 15:23:39 2019
 @arg1 nom : file to look
 @arg2 vers : file to write
 mapping of the Brown Corpus's tags to our tags
+nom and vers form :
+word\ttag
+...
+
 """
 
 

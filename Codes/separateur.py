@@ -8,6 +8,7 @@ Created on Fri Oct 18 15:23:39 2019
 @arg2 vers : file to write
 @arg3 sep : separator
 Write in the file vers the text between <sep> and </sep> lign by lign
+Used on Walker's dictionnary
 """
 
 
