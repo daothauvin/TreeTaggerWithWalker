@@ -1,7 +1,7 @@
 """
 @arg1 bar : input file name
 @arg2 foo : output file name
-This program opens file bar and merge ligns with same word at the beginning and writes the
+This program opens file bar and merge lines with same word at the beginning and writes the
 contents to foo file.
 nom and vers form :
 word\ttag
