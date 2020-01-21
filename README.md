@@ -5,65 +5,65 @@ In this github project you will find every **data** obtained and used in this st
 
 ## Brown
 
-Parts of Brown used in our training and testing of our tagger contained respectively in the directories **TrainingData** and **TestData**.
+Parts of the Brown corpus used in our training and testing can be found in the following directories **TrainingData** and **TestData** respectively.
 We also have a file containing the tags that appear in the test and training data in the file **tags-brown**.
 
 ## Walker
 
-The part used from Walker in our tests.
+The part that we used from Walker in our tests.
 
 ## Codes
 
 Python programs created for different purposes :
-- [compare.py](Codes/compare.py) : compare differences of tags between two files (with same words)
-- [count.py](Codes/count.py) : count tags in a file
-- [fusion.py](Codes/fusion.py) : fuse two files line by line with a tabulation between each two lines
-- [lexicon.py](Codes/lexicon.py) : define a lexicon with brown corpus data
-- [mapfinal.py](Codes/mapfinal.py) : transform tags from brown to tags from Walker's dictionnary ( tags have been transformed to be compatible to TreeTagger )
-- [mapspace.py](Codes/mapspace.py) : transform tags from Walker's dictionnary to tags compatible to TreeTagger
-- [removeDuplicate.py](Codes/removeDuplicate.py) : remove duplicate lines
-- [removeMultiple.py](Codes/removeMultiple.py) : merge lines with same words
-- [separateur.py](Codes/separateur.py) : collect texts between a specific XML balise ( <balise> <\\balise> form )
-- [tagset.py](Codes/tagset.py) : define a tag set with brown corpus data
+- [compare.py](Codes/compare.py) : to compare the differences of tags between two files (with same words).
+- [count.py](Codes/count.py) : to count tags in a file.
+- [fusion.py](Codes/fusion.py) : to fuse two files line by line with a tabulation between each and every two lines.
+- [lexicon.py](Codes/lexicon.py) : to define a lexicon with the Brown corpus data.
+- [mapfinal.py](Codes/mapfinal.py) : to transform tags from the Brown corpus data to tags from Walker's dictionary ( tags have been transformed to be compatible with TreeTagger ).
+- [mapspace.py](Codes/mapspace.py) : to transform tags from Walker's dictionary to tags compatible to TreeTagger.
+- [removeDuplicate.py](Codes/removeDuplicate.py) :to remove duplicate lines.
+- [removeMultiple.py](Codes/removeMultiple.py) : to merge lines with the same words.
+- [separateur.py](Codes/separateur.py) : to collect texts between a specific XML balise ( <balise> <\\balise> form ).
+- [tagset.py](Codes/tagset.py) : to define a tag set with the Brown corpus data.
 
 ## Results
 
-Most of the repertories inside **Results** are split in two repertories **brown** and **walker** that separate information about the two taggers trained with respectively brown tags and walker tags.
+Most of the repositories inside **Results** are split into two repositories **brown** and **walker** that separate information about the two taggers trained with the Brown's tags and Walker's tags respectively.
 
 ### Lexicon
 
-Lexicon for the two taggers, inside **Walker** repertory, you can find two other files that are part of the lexicon : the part coming from Walker's dictionnary **WalkerWords** and words added from brown corpus to complete tag set **addedFromBrownToWalker**
+Lexicon for the two taggers, inside **Walker** repository, you can find two other files that are part of the lexicon : the part coming from Walker's dictionary **WalkerWords** and words added from the Brown corpus to complete the tag set **addedFromBrownToWalker**.
 
 ### TagSet
 
-Tag set for the two taggers
+Tag sets for the two taggers.
 
 ### TestAccuracy
 
-Contains :
+Contains:
 - files used to compare accuracy
-  - **FileToTag-Brown** : text comming from Brown Corpus used to test the taggers
-  - **FileToTag-Walker** : text comming from Walker's dictionnary used to test the taggers
-- The two **brown** and **walker** repertories are split in two repertories :
-  - **TestingWithBrownCorpus** : results of test on **FileToTag-Walker** file
-  - **TestingWithWalkerCorpus** : results of test on **FileToTag-Walker** file
+  - **FileToTag-Brown** : text coming from the Brown Corpus used to test the taggers.
+  - **FileToTag-Walker** : text coming from Walker's dictionary used to test the taggers.
+- The two **brown** and **walker** repositories are split in two repositories :
+  - **TestingWithBrownCorpus** : test's results on **FileToTag-Walker** file.
+  - **TestingWithWalkerCorpus** : test's results on **FileToTag-Walker** file.
 
-  **TestingWithBrownCorpus** contains :
+  **TestingWithBrownCorpus** contains:
 
-  - **TaggingFromBrown** : the tagging of the test file given by the brown corpus
-  - **TaggingResult** : the result file obtained by given the test file to our tagger
-  - **counting-TaggingFromBrown** : counting tag of **TaggingFromBrown** file
-  - **counting-TaggingResult** : counting tag of **TaggingResult** file
-  - **differences-TaggingFromBrown-TaggingResult** : differences obtained between the two results
+  - **TaggingFromBrown** : the tagging of the test file given by the Brown corpus.
+  - **TaggingResult** : the result file obtained by feeding our tagger the test file.
+  - **counting-TaggingFromBrown** : **TaggingFromBrown** file's tags and their occurences.
+  - **counting-TaggingResult** : **TaggingResult** file's tags and their occurences.
+  - **differences-TaggingFromBrown-TaggingResult** : the differences that we got between the two results.
 
   **TestingWithWalker** contains :
-  - **TaggingResult** : the result file obtained by given the test file to our tagger
+  - **TaggingResult** : the result file obtained by feeding our tagger the test file.
 
 
 ### Training
 
-Training data and the count of tags in those.
+Training data and its tags with occurences.
 
 ### TreeTaggerTrainingResult
 
-Taggers optained with our training with brown and Walker's tags.
+Tags obtained by training Brown's and Walker's tags.
