@@ -58,6 +58,7 @@ Contains:
 
   **TestingWithWalker** contains :
   - **TaggingResult** : the result file obtained by feeding our tagger the test file.
+  - **TaggingResult-Failures** : failures from **TaggingResult** reported manually 
 
 
 ### Training

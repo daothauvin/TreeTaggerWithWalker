@@ -1,0 +1,56 @@
+To	adj.	<unknown> x
+lie	s.	<unknown>
+at	s.	<unknown> x
+the	s.	<unknown> x
+table	s.	<unknown>
+,	SENT	,
+according	adj.	<unknown> x
+to	s.	<unknown> x
+the	s.	<unknown> x
+ancient	s.	<unknown> x
+manner	s.	<unknown>
+.	SENT	.
+To	adj.	<unknown> x
+pile	s.	<unknown> x
+up	s.	<unknown> x
+,	SENT	,
+to	adj.	<unknown> x
+heap	s.	<unknown> x
+together	s.	<unknown> x
+.	SENT	.
+The	adj.	<unknown>  x
+act	s.	<unknown>
+of	s.	<unknown> x
+accumulating 	s.	<unknown>
+;	s.	<unknown> x
+the	s.	<unknown>  x
+state	s.	<unknown>
+of	s.	<unknown> x
+being	s.	<unknown>
+accumulated	s.	<unknown> x
+.	SENT	.
+That	adj.	<unknown> x
+which	s.	<unknown> x
+accumulates 	s.	<unknown> x
+;	s.	<unknown> x
+that	s.	<unknown> x
+which	s.	<unknown> x
+is	s.	<unknown> x
+accumulated	s.	<unknown> x
+.	SENT	.
+He	adj.	<unknown> x
+that	s.	<unknown> x
+accumulates	s.	<unknown> x
+,	SENT	,
+a	adj.	<unknown> x
+gatherer	s.	<unknown>
+or	s.	<unknown> x
+heaper	s.	<unknown>
+together	s.	<unknown> x
+.	SENT	.
+Exactness	s.	<unknown>  x
+,	SENT	,
+nicety	s.	<unknown> x
+.	SENT	.
+
+35 failures on 54
