@@ -1,0 +1,50 @@
+\begin{center}
+- Create a \textbf{mapping table} from Brown Corpus tagset to Walker's tagset and \textbf{apply it on our training data}.  \\
+
+
+\begin{center}
+\begin{tabular}{c|c}
+\hline
+ \rowcolor[gray]{.75}
+\textbf{Treetagger's POS tags} &  \textbf{Brown Corpus's POS tags} \\
+\hline
+art  &  at, dt \\
+\hline
+adj  &  jj, dti, ap, dts, jjt, jjr, jjs \\
+\hline
+pret  &  vbd, dod, bed, bedz, hvd \\
+\hline
+s  &  nn, nr, nns, nps \\
+\hline
+conj  &  in, cs, cc, dtx \\
+\hline
+prep  &  in, to \\
+\hline
+part.pass.  &  hvd, vbn, md \\
+\hline
+tp (third person)  &  vbz, bez, hvz, doz \\
+\hline
+v.  &  bem, vb, hv, be, do, ber \\
+\hline
+adv.  &   rb, ql, abx, abn, abl, ex \\
+\hline
+pron.  &  pps, ppo, pn, wps, ppl, wdt \\
+\hline
+part.  &  vbg \\
+\hline
+interj.  &  uh \\
+\hline
+\end{tabular}
+\end{center}
+
+- \textbf{Train TreeTagger} with our training data with Walker's tagset  \\[2mm]
+
+- \textbf{Train TreeTagger} with our training data with Brown Corpus tagset \\[2mm]
+
+- \textbf{Run }both trained Taggers on our test Data \\[2mm]
+
+- \textbf{Compare} the Brown Corpus' test data \textbf{results} to the \textbf{original tagged corpus} \\[2mm]
+
+- \textbf{Check} the tags obtained by the other \textbf{result }
+
+\end{center}
