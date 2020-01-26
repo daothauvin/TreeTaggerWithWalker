@@ -68,3 +68,7 @@ Training data and its tags with occurences.
 ### TreeTaggerTrainingResult
 
 Tags obtained by training Brown's and Walker's tags.
+
+### Poster LATEX
+
+The final poster had been made with Latex. You can find the Latex Code in the folder **PoserLatex**. The file to compile is **poster2.tex**.
